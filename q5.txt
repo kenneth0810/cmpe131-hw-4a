@@ -1,0 +1,5 @@
+1. No
+
+2. Yes
+
+3. They differ because the variable 'a' is passed as a value. The value of 'a' is COPIED to the function, so the original value in the main function is not changed. Whereas for variable 'b', it is a list, so when it is passed to the second function, a REFERENCE of 'b' is passed to the function. Therefore all changes made to the reference of 'b' will affect its value in the main fucntion as well.
