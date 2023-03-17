@@ -17,9 +17,3 @@ def sort_dictionary(myDict):
         myDict.pop(keys[smallest])
         keys.pop(smallest)
     return myList
-
-myDict = {'Tom': (5464512, 19), 
-        'Sara' : (5446987, 32),
-        'Mary' : (1557896, 20),
-        'Kerry' : (12345263, 22)}
-print(sort_dictionary(myDict))
