@@ -15,9 +15,3 @@ def cacti_number(plot):
                     (i == 0 or j == col - 1 or plot[i-1][j+1] == 0):
                     count+=1
     return count
-
-
-plot = [ [1, 0, 0, 1, 0],
-         [0, 1, 0, 0, 0],
-         [1, 0, 0, 0, 0] ]
-print(cacti_number(plot))
