@@ -60,12 +60,3 @@ def cacti_number(plot):
             count += 1
 
     return count
-
-
-# plot = [ [1, 1, 1, 1, 1],
-#          [0, 0, 0, 0, 0],
-#          [0, 1, 0, 1, 0] ]
-
-plot = [[1]]
-
-print(cacti_number(plot))
